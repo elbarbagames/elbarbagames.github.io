@@ -48,3 +48,14 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+.lang {
+  margin: 0 0 2.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.lang [aria-current] {
+  color: var(--ink);
+  text-decoration: none;
+}
